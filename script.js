@@ -38,5 +38,7 @@ function Soal2(number) {
 // Bootcamp impact byte
 // Status covid hari ini
 
+
+
 //Soal 4 
 //Buat tampilan untuk seluruh soal diatas. Buat sekreatif teman-teman. 1 soal = 1 fitur = 1 page.
