@@ -21,16 +21,15 @@ function Soal1(kata) {
 // Nomor handphone minimum 10 digit dan maksimum 12 digit
 // Hanya menerima digit karakter
 
-let regex2 = /^[0-9]{10-12}$/
+let regex2 = /^[0-9]{10,12}$/
 
 function Soal2(number) {
-    if(regex2.test = true) {
+    if(regex2.test(number) = true) {
         console.log("Terima kasih data sudah diterima");
     } else {
         console.log("Masukkan nomor hp hanya sebanyak 10-12 digit");
     }
 }
-
 
 //Soal 3 
 // Buat sebuah program yang menyediakan kalimat berikut sehingga user mendapatkan pencarian yang persis sama.
