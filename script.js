@@ -38,7 +38,19 @@ function Soal2(number) {
 // Bootcamp impact byte
 // Status covid hari ini
 
+let search = /^Bagaimana cara memulai usaha bisnis$|^Bootcamp impact byte$|^Status covid hari ini$/
+console.log(search.test("Status covid hari ini"));
 
+function searchTest(kalimat) {
+    if (search.test("Bagaimana cara memulai usaha bisnis")) {
+        console.log("Cara memulai usaha bisnis ialah..");
+    } if (search.test("Bootcamp impact byte")) {
+        console.log("Bootcamp impact byte adalah sebuah kegiatn...");
+    } if(search.test("Status covid hari ini")) {
+        console.log("Jumlah penderita Covid di Indonesia terus bertambah.");
+    }
+}
 
+searchTest("Bagaimana cara memulai usaha bisnis");
 //Soal 4 
 //Buat tampilan untuk seluruh soal diatas. Buat sekreatif teman-teman. 1 soal = 1 fitur = 1 page.
