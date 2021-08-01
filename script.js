@@ -25,7 +25,7 @@ let regex2 = /^[0-9]{10,12}$/
 
 function Soal2(number) {
     let jawabanSoal2 = document.getElementById("jawaban-soal-2");
-    if(regex2.test(number) = true) {
+    if(regex2.test(number) == true) {
         jawabanSoal2.innerHTML = "Terima kasih data sudah diterima";
     } else {
         jawabanSoal2.innerHTML = "Masukkan nomor hp hanya sebanyak 10-12 digit";
