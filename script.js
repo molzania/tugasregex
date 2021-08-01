@@ -42,12 +42,15 @@ let search = /^Bagaimana cara memulai usaha bisnis$|^Bootcamp impact byte$|^Stat
 console.log(search.test("Status covid hari ini"));
 
 function searchTest(kalimat) {
+
+    let 
     if (search.test("Bagaimana cara memulai usaha bisnis")) {
         console.log("Cara memulai usaha bisnis ialah..");
     } if (search.test("Bootcamp impact byte")) {
-        console.log("Bootcamp impact byte adalah sebuah kegiatn...");
+        console.log("Bootcamp impact byte adalah sebuah kegiatan...");
     } if(search.test("Status covid hari ini")) {
         console.log("Jumlah penderita Covid di Indonesia terus bertambah.");
+        
     }
 }
 
