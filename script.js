@@ -3,12 +3,26 @@
 // Jika huruf pertama adalah huruf besar. Program akan menampilkan/console.log ‘Huruf pertama adalah huruf besar’
 // Jika huruf pertama bukan huruf besar. Program akan menampilkan/console.log ‘Huruf pertama adalah huruf kecil’
 
-let kalimat1 = "Jakarta";
+
+let regex1 = /^[A-Z]/;
+
+function Soal1(kata) {
+    let jawabanSoal1 = document.getElementById("jawaban-soal-1");
+    if (regex1.test(kata) == true) {
+        jawabanSoal1.innerHTML = "Huruf pertama adalah huruf besar";
+
+    } else {
+        jawabanSoal1.innerHTML = "Huruf pertama adalah huruf kecil";
+    }
+}
 
 //Soal 2
 // Buat sebuah program untuk memvalidasi format nomor handphone
 // Nomor handphone minimum 10 digit dan maksimum 12 digit
 // Hanya menerima digit karakter
+
+let regex2 = /^[0-9]{10,12}$/
+console.log(regex2.test("085669312856"));
 
 //Soal 3 
 // Buat sebuah program yang menyediakan kalimat berikut sehingga user mendapatkan pencarian yang persis sama.
