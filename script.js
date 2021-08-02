@@ -56,7 +56,7 @@ function Soal2() {
 //  let search = /^Bagaimana cara memulai usaha bisnis$|^Bootcamp impact byte$|^Status covid hari ini$/
 //  console.log(search.test("Status covid hari ini"));
 
-// function searchTest(kalimat) {
+// function searchTest() {
 
 //      if (search.test("Bagaimana cara memulai usaha bisnis")) {
 //          console.log("Cara memulai usaha bisnis ialah..");
@@ -73,9 +73,9 @@ function Soal2() {
 // searchTest("Bagaimana cara memulai usaha bisnis");
 
  let search = /^Bagaimana cara memulai usaha bisnis$|^Bootcamp impact byte$|^Status covid hari ini$/
- console.log(search.test("Status covid hari ini"));
 
-function searchTest(kalimat) {
+
+function searchTest() {
 
      if (search.test("Bagaimana cara memulai usaha bisnis")) {
          console.log("Cara memulai usaha bisnis ialah..");
@@ -89,7 +89,7 @@ function searchTest(kalimat) {
      }
  }
 
-// searchTest("Bagaimana cara memulai usaha bisnis");
+searchTest("Bagaimana cara memulai usaha bisnis");
 
 //Soal 4 
 //Buat tampilan untuk seluruh soal diatas. Buat sekreatif teman-teman. 1 soal = 1 fitur = 1 page.
