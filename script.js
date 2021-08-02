@@ -36,11 +36,12 @@ function Soal1(kata) {
 let regex2 = /^[0-9]{10,12}$/
 
 function Soal2(number) {
-    let jawabanSoal2 = document.getElementById("jawaban-soal-2").innerHTML;
+    let jawabanSoal2 = document.getElementById("jawaban-soal-2");
+    let number = document.getElementById("number");
     if(regex2.test(number) == true) {
-        jawabanSoal2 = "Terima kasih data sudah diterima";
+        jawabanSoal2.innerHTML = "Terima kasih data sudah diterima";
     } else {
-       jawabanSoal2 = "Masukkan nomor hp hanya sebanyak 10-12 digit angka";
+       jawabanSoal2.innerHTML = "Masukkan nomor hp hanya sebanyak 10-12 digit angka";
     }
 }
 
