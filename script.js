@@ -35,7 +35,7 @@ function Soal1(kata) {
 
 let regex2 = /^[0-9]{10,12}$/
 
-function Soal2(number) {
+function Soal2() {
     let jawabanSoal2 = document.getElementById("jawaban-soal-2");
     let number = document.getElementById("number").value;
     if(regex2.test(number) == true) {
@@ -52,6 +52,25 @@ function Soal2(number) {
 // Bagaimana cara memulai usaha bisnis
 // Bootcamp impact byte
 // Status covid hari ini
+
+//  let search = /^Bagaimana cara memulai usaha bisnis$|^Bootcamp impact byte$|^Status covid hari ini$/
+//  console.log(search.test("Status covid hari ini"));
+
+// function searchTest(kalimat) {
+
+//      if (search.test("Bagaimana cara memulai usaha bisnis")) {
+//          console.log("Cara memulai usaha bisnis ialah..");
+//          return true;
+//      } if (search.test("Bootcamp impact byte")) {
+//          console.log("Bootcamp impact byte adalah sebuah kegiatan...");
+//          return true;
+//      } if(search.test("Status covid hari ini")) {
+//          console.log("Jumlah penderita Covid di Indonesia terus bertambah.");
+//          return true;
+//      }
+//  }
+
+// searchTest("Bagaimana cara memulai usaha bisnis");
 
  let search = /^Bagaimana cara memulai usaha bisnis$|^Bootcamp impact byte$|^Status covid hari ini$/
  console.log(search.test("Status covid hari ini"));
@@ -70,9 +89,7 @@ function searchTest(kalimat) {
      }
  }
 
-searchTest("Bagaimana cara memulai usaha bisnis");
-
-
+// searchTest("Bagaimana cara memulai usaha bisnis");
 
 //Soal 4 
 //Buat tampilan untuk seluruh soal diatas. Buat sekreatif teman-teman. 1 soal = 1 fitur = 1 page.
