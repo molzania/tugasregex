@@ -76,9 +76,10 @@ function Soal2() {
 
 
 function searchTest() {
-
+    let kalimat = document.getElementById("kalimat").value;
+    let jawabanSoal3 = document.getElementById("jawaban-soal-3");
      if (search.test("Bagaimana cara memulai usaha bisnis")) {
-         console.log("Cara memulai usaha bisnis ialah..");
+         jawabanSoal3.innerHTML = "Cara memulai usaha bisnis ialah..";
          return true;
      } if (search.test("Bootcamp impact byte")) {
          console.log("Bootcamp impact byte adalah sebuah kegiatan...");

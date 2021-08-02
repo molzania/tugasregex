@@ -6,33 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jawaban Soal Regex</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Georama:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <h1>
+            Tugas Regex
+        </h1>
+    </header>
     <h2>Jawaban Soal 1</h2>
-    <form method="GET" onsubmit="return false">
+    <form method="GET" onsubmit="return false" id="form1">
         <label for="kata">Masukkan kata di bawah:</label><br>
         <input type="text" id="kata" name="kata" placeholder="Periksa Kata"><br>
         <input type="submit" value="Submit" id="submit-soal-1" onclick="Soal1()">
+        <p class="jawaban">Jawaban:</p>
         <p id="jawaban-soal-1"></p>
     </form>
 
     <h2>Jawaban Soal 2</h2>
-    <form method="GET" onsubmit="return false">
+    <form method="GET" onsubmit="return false" id="form2">
         <label for="number">Masukkan Nomor Handphone:</label><br>
         <input type="number" id="number" name="number" placeholder="Periksa nomor handphone"><br>
         <input type="submit" value="Submit" id="submit-soal-2" onclick="Soal2()">
+        <p class="jawaban">Jawaban:</p>
         <p id="jawaban-soal-2"></p>
     </form>
 
     <h2>Jawaban Soal 3</h2>
-    <form method="GET" onsubmit="return false">
+    <form method="GET" onsubmit="return false" id="form3">
         <label for="kalimat">Masukkan salah stau kalimat pencarian berikut:</label><br>
         <p>1. Bagaimana cara memulai usaha bisnis</p>
         <p>2. Bootcamp impact byte</p>
         <p>3. Status covid hari ini</p>
         <input type="text" id="kalimat" name="kalimat" placeholder="Periksa kalimat"><br>
         <input type="submit" value="Submit" id="submit-soal-3" onclick="SearchTest()">
+        <p class="jawaban">Jawaban:</p>
         <p id="jawaban-soal-3"></p>
     </form>
     <script src="script.js"></script>

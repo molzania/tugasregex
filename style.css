@@ -1,8 +1,89 @@
 body{
     background-color: whitesmoke;
     margin: 0;
+    font-family: 'Georama', sans-serif;
 }
 
 h2{
+    padding-top: 30px;
     padding-left: 20px;
+    text-align: center;
+}
+
+#submit-soal-1 {
+    background-color: cornflowerblue;
+    margin-top:10px;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+
+#submit-soal-2 {
+    background-color: cornflowerblue;
+    margin-top:10px;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+
+#submit-soal-3 {
+    background-color: cornflowerblue;
+    margin-top:10px;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    background-color: teal;
+}
+
+#form1 {
+    padding: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#form2 {
+    padding: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#form3 {
+    padding: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.jawaban {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#kata {
+    width: 300px;
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#number {
+    width: 300px;
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#kalimat {
+        width: 300px;
+        height: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
 }
