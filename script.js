@@ -45,52 +45,25 @@ function Soal2() {
     }
 }
 
-
-
 //Soal 3 
 // Buat sebuah program yang menyediakan kalimat berikut sehingga user mendapatkan pencarian yang persis sama.
 // Bagaimana cara memulai usaha bisnis
 // Bootcamp impact byte
 // Status covid hari ini
 
-//  let search = /^Bagaimana cara memulai usaha bisnis$|^Bootcamp impact byte$|^Status covid hari ini$/
-//  console.log(search.test("Status covid hari ini"));
+  let search = /^Bagaimana cara memulai usaha bisnis$|^Bootcamp impact byte$|^Status covid hari ini$/
 
-// function searchTest() {
-
-//      if (search.test("Bagaimana cara memulai usaha bisnis")) {
-//          console.log("Cara memulai usaha bisnis ialah..");
-//          return true;
-//      } if (search.test("Bootcamp impact byte")) {
-//          console.log("Bootcamp impact byte adalah sebuah kegiatan...");
-//          return true;
-//      } if(search.test("Status covid hari ini")) {
-//          console.log("Jumlah penderita Covid di Indonesia terus bertambah.");
-//          return true;
-//      }
-//  }
-
-// searchTest("Bagaimana cara memulai usaha bisnis");
-
- let search = /^Bagaimana cara memulai usaha bisnis$|^Bootcamp impact byte$|^Status covid hari ini$/
-
-
-function searchTest() {
-    let kalimat = document.getElementById("kalimat").value;
-    let jawabanSoal3 = document.getElementById("jawaban-soal-3");
-     if (search.test("Bagaimana cara memulai usaha bisnis")) {
-         jawabanSoal3.innerHTML = "Cara memulai usaha bisnis ialah..";
-         return true;
-     } if (search.test("Bootcamp impact byte")) {
-         console.log("Bootcamp impact byte adalah sebuah kegiatan...");
-         return true;
-     } if(search.test("Status covid hari ini")) {
-         console.log("Jumlah penderita Covid di Indonesia terus bertambah.");
-         return true;
-     }
- }
-
-searchTest("Bagaimana cara memulai usaha bisnis");
+ function searchTest() {
+     let kalimat = document.getElementById("kalimat").value;
+     let jawabanSoal3 = document.getElementById("jawaban-soal-3");
+      if (search.test("Bagaimana cara memulai usaha bisnis")) {
+          return jawabanSoal3.innerHTML = "Cara memulai usaha bisnis ialah..";
+      } else if (search.test("Bootcamp impact byte")) {
+          return jawabanSoal3.innerHTML = "Bootcamp impact byte adalah sebuah kegiatan...";
+      } else if(search.test("Status covid hari ini")) {
+          return jawabanSoal3.innerHTML = "Jumlah penderita Covid di Indonesia terus bertambah.";
+      }
+  }
 
 //Soal 4 
 //Buat tampilan untuk seluruh soal diatas. Buat sekreatif teman-teman. 1 soal = 1 fitur = 1 page.
